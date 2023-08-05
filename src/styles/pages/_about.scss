@@ -1,0 +1,24 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.liste-about {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.about-collapse {
+  .collapse-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .about-container {
+    margin: 0 20px;
+  }
+}

@@ -1,0 +1,35 @@
+.footer {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 400px;
+}
+
+.logo-footer {
+  margin-top: 66px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.copyright {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .copyright {
+    font-size: 12px;
+  }
+
+  .footer {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

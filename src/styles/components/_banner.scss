@@ -1,0 +1,35 @@
+.banner-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.banner {
+  background-image: url("../../assets/img/Image-source.png");
+  height: 223px;
+  width: 1240px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+
+  h1 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner-container {
+    margin: 0 20px 20px;
+  }
+
+  .banner {
+    h1 {
+      font-size: 24px;
+    }
+  }
+}

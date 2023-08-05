@@ -1,0 +1,28 @@
+.card {
+  position: relative;
+  height: 340px;
+  width: 340px;
+  border-radius: 10px;
+  transition: 0.3s;
+
+  h2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+  }
+
+  img {
+    position: absolute;
+    height: 340px;
+    width: 340px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}

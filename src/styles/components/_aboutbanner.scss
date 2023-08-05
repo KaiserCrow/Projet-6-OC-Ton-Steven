@@ -1,0 +1,17 @@
+.about-banner-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.about-banner {
+  background-image: url("../../assets/img/kalen-emsley-Bkci_8qcdvQ-unsplash\ 2.png");
+  height: 223px;
+  width: 1240px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}

@@ -1,0 +1,65 @@
+.collapse-container {
+  width: 100%;
+}
+
+.collapse-component {
+  width: 1024px;
+
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #ff6060;
+
+  h2 {
+    color: white;
+    font-size: 24px;
+  }
+}
+
+.collapse-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.collapse-body {
+  padding: 10px;
+  border-top: 1px solid #ccc;
+
+  background-color: #f6f6f6;
+
+  p {
+    color: #ff6060;
+    font-size: 18px;
+  }
+  ul {
+    li {
+      color: #ff6060;
+      font-size: 18px;
+    }
+  }
+}
+
+.collapse-icon {
+  color: white;
+}
+
+@keyframes openAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .collapse-component {
+    h2 {
+      font-size: 13px;
+    }
+  }
+}
